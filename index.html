@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Разбор существительных III склонения в медицинской латыни по словарной форме.">
+<title>Третье склонение · Медицинская латынь</title>
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="style.css">
+<script defer src="assets/motion.js"></script>
+<script defer src="assets/lexicon.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header><div class="wrap bar"><a class="brand" href="#"><span class="mark" aria-hidden="true">III</span> Медицинская латынь</a><nav class="nav" aria-label="Разделы"><a href="#analysis">Разбор</a><a href="#anatomy">Термины</a><a href="#rules">Правила</a><a href="#practice">Тренажёр</a><a href="#dictionary">Словарь</a></nav></div></header>
+<main class="wrap">
+<section id="analysis" class="workbench" aria-labelledby="analysis-title">
+  <div class="lesson-heading">
+    <div>
+      <p class="chapter">Практикум по медицинской латыни</p>
+      <h1 id="analysis-title">Третье склонение</h1>
+    </div>
+    <p>От словарной формы к анатомическому термину. Разбор, примеры и две самостоятельные тренировки.</p>
+  </div>
+  <div class="bench-grid">
+    <div class="analysis-station">
+      <h2>Разбор слова</h2>
+<form id="analyze">
+<label for="noun">Латинское слово или его форма</label>
+<div class="row"><input id="noun" name="noun" lang="la" placeholder="Например, dens или dentis" spellcheck="false" autocomplete="off" autocapitalize="none" required><button>Разобрать</button></div>
+<div id="extra" hidden class="stack">
+<p class="muted">Если слова нет в словаре, введи выше его именительный падеж. Здесь добавь полную форму родительного падежа и род.</p>
+<div class="row"><label for="genitive">Gen. sg.</label><input id="genitive" lang="la" placeholder="Например, canalis" spellcheck="false"><label for="gender">Род</label><select id="gender"><option value="">Выбери</option><option value="m">m · мужской</option><option value="f">f · женский</option><option value="n">n · средний</option></select></div>
+</div>
+</form>
+<div class="example-heading"><span class="muted">Попробуй одно из слов</span><button class="text-button" id="refresh-examples" type="button">Другие примеры <span aria-hidden="true">↻</span></button></div>
+<div class="row" id="examples" aria-live="polite"></div>
+<div id="result" role="status" aria-live="polite"></div><p class="analysis-hint">Можно ввести <i lang="la">dens</i>, <i lang="la">dentis</i> или <i lang="la">dentium</i>. Для слова вне словаря понадобятся обе формы единственного числа и род.</p>
+</div>
+<aside class="specimen" aria-label="Пример разбора">
+    <div class="specimen-top"><span>Сравни словарные формы</span><span id="specimen-index" aria-hidden="true"></span></div>
+    <div id="specimen-picker" class="specimen-picker" role="group" aria-label="Слово для сравнения"></div>
+    <div id="form-picker" class="form-picker" role="group" aria-label="Падеж и число" aria-describedby="form-help"></div>
+    <p id="form-help" class="form-help"></p>
+    <div id="specimen-word" class="specimen-word" aria-live="polite"></div>
+    <div class="specimen-actions">
+      <button id="specimen-split" type="button" aria-pressed="false">Основа</button>
+      <a id="specimen-open" href="#analysis">Разобрать эту форму</a>
+    </div>
+  </aside>
+</div>
+</section>
+<section id="anatomy" aria-labelledby="anatomy-title">
+  <div class="section-intro">
+    <h2 id="anatomy-title">От слова к термину</h2>
+    <p>В анатомических названиях зависимое существительное часто отвечает на вопрос «чего?». Сравни, как меняется его форма.</p>
+  </div>
+  <div class="term-strip">
+    <article>
+      <h3 lang="la">apex <strong>pulmonis</strong></h3>
+      <p class="term-translation">Верхушка лёгкого</p>
+      <p><i lang="la">Pulmo</i> — лёгкое. В форме <i lang="la">pulmonis</i> видно основу <b lang="la">pulmon-</b>.</p>
+      <a class="rule-example" href="#analysis" data-word="pulmo">Разобрать <i lang="la">pulmo</i></a>
+    </article>
+    <article>
+      <h3 lang="la">cervix <strong>dentis</strong></h3>
+      <p class="term-translation">Шейка зуба</p>
+      <p><i lang="la">Dens</i> — зуб. Убери <i lang="la">-is</i> из <i lang="la">dentis</i> и получишь <b lang="la">dent-</b> с двумя согласными в конце.</p>
+      <a class="rule-example" href="#analysis" data-word="dens">Разобрать <i lang="la">dens</i></a>
+    </article>
+    <article>
+      <h3 lang="la">canalis <strong>radicis</strong> dentis</h3>
+      <p class="term-translation">Канал корня зуба</p>
+      <p>Канал чего? <i lang="la">Radicis</i>, корня. Корня чего? <i lang="la">Dentis</i>, зуба. Два зависимых слова стоят в родительном падеже.</p>
+      <a class="rule-example" href="#analysis" data-word="radix">Разобрать <i lang="la">radix</i></a>
+    </article>
+  </div>
+  <p class="term-source">Источник терминов — <a href="https://rsmu.ru/fileadmin/templates/DOC/Faculties/PF/Dept_latin_language/Kolesnikov_-_Terminologia_Anatomica_1.pdf">«Международная анатомическая терминология»</a>, русское издание под ред. Л. Л. Колесникова.</p>
+</section>
+<section id="rules" aria-labelledby="rules-title">
+<h2 id="rules-title">Как различить типы</h2>
+<p>У существительных III склонения Gen. sg. оканчивается на <strong>−is</strong>. Убери это окончание, чтобы получить практическую основу. Например, <span lang="la">corporis → corpor-</span>.</p>
+<ol class="rule-list" role="list">
+  <li>
+    <div><h3>Гласная разновидность</h3><p>Чаще всего средний род с Nom. sg. на <b>−e, −al, −ar</b>. В медицинской латыни сюда входят и некоторые греческие слова женского рода, например <i lang="la">dosis</i>.</p></div>
+    <a class="rule-example" href="#analysis" data-word="mare" lang="la">mare, maris</a>
+  </li>
+  <li>
+    <div><h3>Смешанная группа Б</h3><p>Мужской или женский род, Nom. sg. на <b>−is</b> или <b>−es</b>. Слогов в обеих формах поровну.</p></div>
+    <a class="rule-example" href="#analysis" data-word="canalis" lang="la">canalis, canalis</a>
+  </li>
+  <li>
+    <div><h3>Смешанная группа А</h3><p>Число слогов различается. На конце практической основы две согласные или больше.</p></div>
+    <a class="rule-example" href="#analysis" data-word="dens" lang="la">dens, dentis</a>
+  </li>
+  <li>
+    <div><h3>Согласная разновидность</h3><p>Число слогов различается. На конце практической основы одна согласная.</p></div>
+    <a class="rule-example" href="#analysis" data-word="corpus" lang="la">corpus, corporis</a>
+  </li>
+</ol>
+<p class="muted">Проверяй признаки сверху вниз. Нажми на латинский пример, чтобы увидеть разбор. Для слов-исключений сверяй тип склонения со словарём.</p>
+<p><strong>Gen. pl.</strong> — родительный падеж множественного числа. У согласного типа обычно окончание <b>−um</b>, у смешанного и гласного — <b>−ium</b>. Чтобы различить два последних типа, нужны и другие признаки.</p>
+<h3>Учебные пособия и публикации</h3>
+<ul>
+  <li>И. С. Архипова и др. <a href="https://elib.usma.ru/bitstream/usma/17581/1/UMK_2022_024.pdf">Латинская медицинская терминология для студентов медико-профилактического факультета</a>. УГМУ, 2022. Тема V, с. 31–33.</li>
+  <li>Т. В. Кожинова, Б. А. Алькешова. <a href="https://lib.krsu.kg/uploads/files/public/83.pdf">Латинский язык и медицинская терминология</a>. КРСУ, 2008. Занятия 17–18, таблица 4.</li>
+  <li>М. Е. Вайндорф-Сысоева, А. С. Коржавина. <a href="https://jomeam.ru/ru/nauka/publications/article/6a9c160c32807fdbab870ad0/primenenie-sovremennyh-obrazovatel-nyh-tehnologiy-v-distancionnom-obuchenii-medicinskih-kolledzhey-na-primere-discipliny-latinskiy-yazyk/view">Применение современных образовательных технологий в дистанционном обучении медицинских колледжей (на примере дисциплины «латинский язык»)</a>. Журнал прикладных исследований, 2025, № 11, с. 31–34.</li>
+</ul>
+</section>
+<section id="practice" aria-labelledby="practice-title">
+<h2 id="practice-title">Самопроверка</h2><p>Выбери навык и пройди до восьми слов. После раунда можно повторить ошибки.</p>
+<div class="panel quiz-panel"><div class="practice-modes" role="group" aria-label="Навык"><button id="mode-group" type="button" class="secondary" aria-pressed="true">Определить тип</button><button id="mode-stem" type="button" class="secondary" aria-pressed="false">Найти основу</button><button id="all-practice-topics" class="text-button" type="button" hidden>Сбросить тему</button></div>
+<div class="quiz-status"><p id="quiz-step"></p><p id="quiz-topic" hidden></p><p id="score"></p><div class="quiz-meter" aria-hidden="true"><span></span></div></div><div id="quiz-task" class="quiz-task">
+  <div class="quiz-prompt">
+    <p id="quiz-instruction">К какому типу относится слово?</p>
+    <h3 class="latin" id="question" lang="la" tabindex="-1"></h3>
+    <p id="quiz-translation"></p>
+  </div>
+  <div id="options" class="options"></div>
+  <form id="stem-answer" hidden>
+    <label for="stem-input">Практическая основа</label>
+    <div class="row"><input id="stem-input" lang="la" spellcheck="false" autocapitalize="none" autocomplete="off" required><button>Проверить</button></div>
+  </form>
+</div>
+<p id="feedback" class="feedback" role="status"></p>
+<button id="next" disabled>Следующее слово</button><div id="quiz-summary" hidden></div>
+</div>
+</section>
+<section id="dictionary" aria-labelledby="dictionary-title">
+  <div class="catalog-heading">
+    <div><h2 id="dictionary-title">Словарь III склонения</h2><p>Открой статью, чтобы увидеть форму, основу и учебный источник.</p></div>
+    <a class="database-download" href="database/lexicon.sqlite" download>Скачать базу SQLite</a>
+  </div>
+  <div class="dictionary-controls">
+    <div><label for="filter">Найти слово</label><input id="filter" type="search" placeholder="Например, гортань или laryngis"></div>
+    <div><label for="topic-filter">Тема</label><select id="topic-filter"><option value="">Все темы</option></select></div>
+    <div><label for="group-filter">Разновидность</label><select id="group-filter"><option value="">Все группы</option></select></div>
+  </div>
+  <p id="count" class="muted" role="status"></p>
+  <button id="clear-filters" class="secondary" type="button" hidden>Сбросить фильтры</button>
+  <div id="dictionary-layout" class="dictionary-layout">
+    <div>
+      <div class="table-scroll" id="dictionary-table" role="region" aria-label="Результаты поиска в словаре">
+        <table>
+          <thead><tr><th scope="col">Слово</th><th scope="col">Перевод</th><th scope="col">Разновидность</th></tr></thead>
+          <tbody id="words"></tbody>
+        </table>
+      </div>
+      <div id="dictionary-pages" class="dictionary-pages" aria-label="Страницы словаря">
+        <button id="dictionary-prev" class="secondary" type="button">Назад</button>
+        <span id="dictionary-page" role="status"></span>
+        <button id="dictionary-next" class="secondary" type="button">Дальше</button>
+      </div>
+    </div>
+    <aside id="dictionary-entry" class="dictionary-entry" tabindex="-1" aria-label="Словарная статья"></aside>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">Медицинская латынь · Учебный разбор по конспекту</div></footer>
+</body>
+</html>
+
+
+
+

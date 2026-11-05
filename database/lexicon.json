@@ -1,0 +1,1409 @@
+{
+  "version": 1,
+  "topics": [
+    {
+      "id": "anatomy",
+      "name": "Анатомия"
+    },
+    {
+      "id": "clinical",
+      "name": "Клинические термины"
+    },
+    {
+      "id": "general",
+      "name": "Общая лексика"
+    }
+  ],
+  "sources": [
+    {
+      "id": "ugmu2022",
+      "title": "Латинская медицинская терминология",
+      "publication": "И. С. Архипова и др., УГМУ, 2022",
+      "url": "https://elib.usma.ru/bitstream/usma/17581/1/UMK_2022_024.pdf"
+    },
+    {
+      "id": "krsu2008",
+      "title": "Латинский язык и медицинская терминология",
+      "publication": "Т. В. Кожинова, Б. А. Алькешова, КРСУ, 2008",
+      "url": "https://lib.krsu.kg/uploads/files/public/83.pdf"
+    },
+    {
+      "id": "ugmuclinical",
+      "title": "Латинская терминология для клинических психологов",
+      "publication": "О. Н. Анциферова, О. Г. Олехнович, О. Ю. Ольшванг, УГМУ, 2022",
+      "url": "https://elib.usma.ru/bitstream/usma/11071/1/UMK_2022_023.pdf"
+    }
+  ],
+  "terms": [
+    {
+      "nom": "canalis",
+      "gen": "canalis",
+      "gender": "m",
+      "translation": "канал",
+      "group": "b",
+      "topic": "anatomy",
+      "genPlural": "canalium",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "auris",
+      "gen": "auris",
+      "gender": "f",
+      "translation": "ухо",
+      "group": "b",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "avis",
+      "gen": "avis",
+      "gender": "f",
+      "translation": "птица",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "finis",
+      "gen": "finis",
+      "gender": "m",
+      "translation": "конец, граница",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "cutis",
+      "gen": "cutis",
+      "gender": "f",
+      "translation": "кожа",
+      "group": "b",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "pelvis",
+      "gen": "pelvis",
+      "gender": "f",
+      "translation": "таз, лоханка",
+      "group": "vowel",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум",
+      "note": "В пособии УГМУ это слово отнесено к гласному типу как исключение."
+    },
+    {
+      "nom": "testis",
+      "gen": "testis",
+      "gender": "m",
+      "translation": "яичко",
+      "group": "b",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "navis",
+      "gen": "navis",
+      "gender": "f",
+      "translation": "корабль",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "nubes",
+      "gen": "nubis",
+      "gender": "f",
+      "translation": "облако",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "caedes",
+      "gen": "caedis",
+      "gender": "f",
+      "translation": "убийство",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "os",
+      "gen": "ossis",
+      "gender": "n",
+      "translation": "кость",
+      "group": "a",
+      "topic": "anatomy",
+      "genPlural": "ossium",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "ars",
+      "gen": "artis",
+      "gender": "f",
+      "translation": "искусство",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "dens",
+      "gen": "dentis",
+      "gender": "m",
+      "translation": "зуб",
+      "group": "a",
+      "topic": "anatomy",
+      "genPlural": "dentium",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "pars",
+      "gen": "partis",
+      "gender": "f",
+      "translation": "часть",
+      "group": "a",
+      "topic": "general",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "pons",
+      "gen": "pontis",
+      "gender": "m",
+      "translation": "мост",
+      "group": "a",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "urbs",
+      "gen": "urbis",
+      "gender": "f",
+      "translation": "город",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "nox",
+      "gen": "noctis",
+      "gender": "f",
+      "translation": "ночь",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "mens",
+      "gen": "mentis",
+      "gender": "f",
+      "translation": "ум",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "mons",
+      "gen": "montis",
+      "gender": "m",
+      "translation": "гора",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "mors",
+      "gen": "mortis",
+      "gender": "f",
+      "translation": "смерть",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "mare",
+      "gen": "maris",
+      "gender": "n",
+      "translation": "море",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "animal",
+      "gen": "animalis",
+      "gender": "n",
+      "translation": "животное",
+      "group": "vowel",
+      "topic": "general",
+      "genPlural": "animalium",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "calcar",
+      "gen": "calcaris",
+      "gender": "n",
+      "translation": "шпора",
+      "group": "vowel",
+      "topic": "general",
+      "genPlural": "calcarium",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "cochlear",
+      "gen": "cochlearis",
+      "gender": "n",
+      "translation": "ложка",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "rete",
+      "gen": "retis",
+      "gender": "n",
+      "translation": "сеть",
+      "group": "vowel",
+      "topic": "anatomy",
+      "genPlural": "retium",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "exemplar",
+      "gen": "exemplaris",
+      "gender": "n",
+      "translation": "образец",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "tribunal",
+      "gen": "tribunalis",
+      "gender": "n",
+      "translation": "возвышение, трибунал",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "cubile",
+      "gen": "cubilis",
+      "gender": "n",
+      "translation": "ложе",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "corpus",
+      "gen": "corporis",
+      "gender": "n",
+      "translation": "тело",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "foramen",
+      "gen": "foraminis",
+      "gender": "n",
+      "translation": "отверстие",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "caput",
+      "gen": "capitis",
+      "gender": "n",
+      "translation": "голова",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "abdomen",
+      "gen": "abdominis",
+      "gender": "n",
+      "translation": "живот",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "abductor",
+      "gen": "abductoris",
+      "gender": "m",
+      "translation": "отводящая мышца",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "abrasio",
+      "gen": "abrasionis",
+      "gender": "f",
+      "translation": "соскабливание",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "pulmo",
+      "gen": "pulmonis",
+      "gender": "m",
+      "translation": "лёгкое",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "ren",
+      "gen": "renis",
+      "gender": "m",
+      "translation": "почка",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "hepar",
+      "gen": "hepatis",
+      "gender": "n",
+      "translation": "печень",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "femur",
+      "gen": "femoris",
+      "gender": "n",
+      "translation": "бедро",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "tendo",
+      "gen": "tendinis",
+      "gender": "m",
+      "translation": "сухожилие",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "apex",
+      "gen": "apicis",
+      "gender": "m",
+      "translation": "верхушка",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "cervix",
+      "gen": "cervicis",
+      "gender": "f",
+      "translation": "шея, шейка",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "radix",
+      "gen": "radicis",
+      "gender": "f",
+      "translation": "корень",
+      "group": "consonant",
+      "topic": "anatomy",
+      "genPlural": "radicum",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "os",
+      "gen": "oris",
+      "gender": "n",
+      "translation": "рот",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "pubes",
+      "gen": "pubis",
+      "gender": "f",
+      "translation": "лобок",
+      "group": "b",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "calix",
+      "gen": "calicis",
+      "gender": "m",
+      "translation": "чаша, чашечка",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "civis",
+      "gen": "civis",
+      "gender": "m",
+      "translation": "гражданин",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "hostis",
+      "gen": "hostis",
+      "gender": "m",
+      "translation": "враг",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "sedes",
+      "gen": "sedis",
+      "gender": "f",
+      "translation": "место, сиденье",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "vulpes",
+      "gen": "vulpis",
+      "gender": "f",
+      "translation": "лиса",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "clades",
+      "gen": "cladis",
+      "gender": "f",
+      "translation": "бедствие",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "proles",
+      "gen": "prolis",
+      "gender": "f",
+      "translation": "потомство",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "arx",
+      "gen": "arcis",
+      "gender": "f",
+      "translation": "крепость",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "falx",
+      "gen": "falcis",
+      "gender": "f",
+      "translation": "серп",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "frons",
+      "gen": "frontis",
+      "gender": "f",
+      "translation": "лоб",
+      "group": "a",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "frons",
+      "gen": "frondis",
+      "gender": "f",
+      "translation": "листва",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "stirps",
+      "gen": "stirpis",
+      "gender": "f",
+      "translation": "корень, ствол",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "lacunar",
+      "gen": "lacunaris",
+      "gender": "n",
+      "translation": "кессон потолка",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "alveare",
+      "gen": "alvearis",
+      "gender": "n",
+      "translation": "улей",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "collare",
+      "gen": "collaris",
+      "gender": "n",
+      "translation": "ошейник",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "torcular",
+      "gen": "torcularis",
+      "gender": "n",
+      "translation": "пресс",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "vectigal",
+      "gen": "vectigalis",
+      "gender": "n",
+      "translation": "подать",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "ulcus",
+      "gen": "ulceris",
+      "gender": "n",
+      "translation": "язва",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "vulnus",
+      "gen": "vulneris",
+      "gender": "n",
+      "translation": "рана",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "liquor",
+      "gen": "liquoris",
+      "gender": "m",
+      "translation": "жидкость",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "tumor",
+      "gen": "tumoris",
+      "gender": "m",
+      "translation": "припухлость, опухоль",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "color",
+      "gen": "coloris",
+      "gender": "m",
+      "translation": "цвет",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "dolor",
+      "gen": "doloris",
+      "gender": "m",
+      "translation": "боль",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "cartilago",
+      "gen": "cartilaginis",
+      "gender": "f",
+      "translation": "хрящ",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "imago",
+      "gen": "imaginis",
+      "gender": "f",
+      "translation": "изображение",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "lien",
+      "gen": "lienis",
+      "gender": "m",
+      "translation": "селезёнка",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "articulatio",
+      "gen": "articulationis",
+      "gender": "f",
+      "translation": "сустав, сочленение",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "cavitas",
+      "gen": "cavitatis",
+      "gender": "f",
+      "translation": "полость",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "origo",
+      "gen": "originis",
+      "gender": "f",
+      "translation": "начало, происхождение",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "insertio",
+      "gen": "insertionis",
+      "gender": "f",
+      "translation": "прикрепление",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "flexor",
+      "gen": "flexoris",
+      "gender": "m",
+      "translation": "сгибатель",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "extensor",
+      "gen": "extensoris",
+      "gender": "m",
+      "translation": "разгибатель",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "adductor",
+      "gen": "adductoris",
+      "gender": "m",
+      "translation": "приводящая мышца",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "levator",
+      "gen": "levatoris",
+      "gender": "m",
+      "translation": "поднимающая мышца",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "depressor",
+      "gen": "depressoris",
+      "gender": "m",
+      "translation": "опускающая мышца",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "rotator",
+      "gen": "rotatoris",
+      "gender": "m",
+      "translation": "вращающая мышца",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "sphincter",
+      "gen": "sphincteris",
+      "gender": "m",
+      "translation": "сфинктер",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "margo",
+      "gen": "marginis",
+      "gender": "m",
+      "translation": "край",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "trochanter",
+      "gen": "trochanteris",
+      "gender": "m",
+      "translation": "вертел",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "crus",
+      "gen": "cruris",
+      "gender": "n",
+      "translation": "голень, ножка",
+      "group": "consonant",
+      "topic": "anatomy",
+      "genPlural": "crurum",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18, примеры и таблица 4"
+    },
+    {
+      "nom": "pectus",
+      "gen": "pectoris",
+      "gender": "n",
+      "translation": "грудь",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "thorax",
+      "gen": "thoracis",
+      "gender": "m",
+      "translation": "грудная клетка",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "diaphragma",
+      "gen": "diaphragmatis",
+      "gender": "n",
+      "translation": "диафрагма",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "stoma",
+      "gen": "stomatis",
+      "gender": "n",
+      "translation": "устье",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "trauma",
+      "gen": "traumatis",
+      "gender": "n",
+      "translation": "травма",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "oedema",
+      "gen": "oedematis",
+      "gender": "n",
+      "translation": "отёк",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "haematoma",
+      "gen": "haematomatis",
+      "gender": "n",
+      "translation": "гематома",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "symptoma",
+      "gen": "symptomatis",
+      "gender": "n",
+      "translation": "симптом",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "plasma",
+      "gen": "plasmatis",
+      "gender": "n",
+      "translation": "плазма",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "stigma",
+      "gen": "stigmatis",
+      "gender": "n",
+      "translation": "метка, пятно",
+      "group": "consonant",
+      "topic": "clinical"
+    },
+    {
+      "nom": "sanguis",
+      "gen": "sanguinis",
+      "gender": "m",
+      "translation": "кровь",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "bilis",
+      "gen": "bilis",
+      "gender": "f",
+      "translation": "жёлчь",
+      "group": "b",
+      "topic": "clinical"
+    },
+    {
+      "nom": "sal",
+      "gen": "salis",
+      "gender": "m",
+      "translation": "соль",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "nomen",
+      "gen": "nominis",
+      "gender": "n",
+      "translation": "имя, название",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "genus",
+      "gen": "generis",
+      "gender": "n",
+      "translation": "род",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "tempus",
+      "gen": "temporis",
+      "gender": "n",
+      "translation": "время",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "opus",
+      "gen": "operis",
+      "gender": "n",
+      "translation": "дело, труд",
+      "group": "consonant",
+      "topic": "general"
+    },
+    {
+      "nom": "viscus",
+      "gen": "visceris",
+      "gender": "n",
+      "translation": "внутренний орган",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, лексический минимум"
+    },
+    {
+      "nom": "vomer",
+      "gen": "vomeris",
+      "gender": "m",
+      "translation": "сошник",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "pes",
+      "gen": "pedis",
+      "gender": "m",
+      "translation": "стопа",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "cor",
+      "gen": "cordis",
+      "gender": "n",
+      "translation": "сердце",
+      "group": "consonant",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "puls",
+      "gen": "pultis",
+      "gender": "f",
+      "translation": "каша",
+      "group": "a",
+      "topic": "general"
+    },
+    {
+      "nom": "ignis",
+      "gen": "ignis",
+      "gender": "m",
+      "translation": "огонь",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "piscis",
+      "gen": "piscis",
+      "gender": "m",
+      "translation": "рыба",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "vestis",
+      "gen": "vestis",
+      "gender": "f",
+      "translation": "одежда",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "turris",
+      "gen": "turris",
+      "gender": "f",
+      "translation": "башня",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "aedes",
+      "gen": "aedis",
+      "gender": "f",
+      "translation": "храм",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "feles",
+      "gen": "felis",
+      "gender": "f",
+      "translation": "кошка",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "moles",
+      "gen": "molis",
+      "gender": "f",
+      "translation": "громада, масса",
+      "group": "b",
+      "topic": "general"
+    },
+    {
+      "nom": "lues",
+      "gen": "luis",
+      "gender": "f",
+      "translation": "мор, зараза",
+      "group": "b",
+      "topic": "clinical"
+    },
+    {
+      "nom": "capillare",
+      "gen": "capillaris",
+      "gender": "n",
+      "translation": "капилляр",
+      "group": "vowel",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "cervical",
+      "gen": "cervicalis",
+      "gender": "n",
+      "translation": "подушка",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "navale",
+      "gen": "navalis",
+      "gender": "n",
+      "translation": "корабельный док",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "tibiale",
+      "gen": "tibialis",
+      "gender": "n",
+      "translation": "накладка на голень",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "laquear",
+      "gen": "laquearis",
+      "gender": "n",
+      "translation": "кессон, панель потолка",
+      "group": "vowel",
+      "topic": "general"
+    },
+    {
+      "nom": "pulvinar",
+      "gen": "pulvinaris",
+      "gender": "n",
+      "translation": "подушка",
+      "group": "vowel",
+      "topic": "anatomy"
+    },
+    {
+      "nom": "basis",
+      "gen": "basis",
+      "gender": "f",
+      "translation": "основание",
+      "group": "vowel",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "regio",
+      "gen": "regionis",
+      "gender": "f",
+      "translation": "область",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "tuberositas",
+      "gen": "tuberositatis",
+      "gender": "f",
+      "translation": "бугристость",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "axis",
+      "gen": "axis",
+      "gender": "m",
+      "translation": "ось, второй шейный позвонок",
+      "group": "b",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "coccyx",
+      "gen": "coccygis",
+      "gender": "m",
+      "translation": "копчик",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "larynx",
+      "gen": "laryngis",
+      "gender": "m",
+      "translation": "гортань",
+      "group": "a",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "pharynx",
+      "gen": "pharyngis",
+      "gender": "m",
+      "translation": "глотка",
+      "group": "a",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "vermis",
+      "gen": "vermis",
+      "gender": "m",
+      "translation": "червь",
+      "group": "b",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "pancreas",
+      "gen": "pancreatis",
+      "gender": "n",
+      "translation": "поджелудочная железа",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "fel",
+      "gen": "fellis",
+      "gender": "n",
+      "translation": "жёлчь",
+      "group": "a",
+      "topic": "anatomy",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "lac",
+      "gen": "lactis",
+      "gender": "n",
+      "translation": "молоко",
+      "group": "a",
+      "topic": "general",
+      "source": "ugmu2022",
+      "locator": "Тема V, существительные III склонения"
+    },
+    {
+      "nom": "stapes",
+      "gen": "stapedis",
+      "gender": "m",
+      "translation": "стремя",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "humor",
+      "gen": "humoris",
+      "gender": "m",
+      "translation": "жидкость, влага",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "tuber",
+      "gen": "tuberis",
+      "gender": "n",
+      "translation": "бугор",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "iris",
+      "gen": "iridis",
+      "gender": "f",
+      "translation": "радужка",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "phalanx",
+      "gen": "phalangis",
+      "gender": "f",
+      "translation": "фаланга",
+      "group": "a",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "glomus",
+      "gen": "glomeris",
+      "gender": "n",
+      "translation": "клубочек",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "lens",
+      "gen": "lentis",
+      "gender": "f",
+      "translation": "хрусталик, линза",
+      "group": "a",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18",
+      "genPlural": "lentium"
+    },
+    {
+      "nom": "impressio",
+      "gen": "impressionis",
+      "gender": "f",
+      "translation": "вдавление",
+      "group": "consonant",
+      "topic": "anatomy",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18"
+    },
+    {
+      "nom": "dosis",
+      "gen": "dosis",
+      "gender": "f",
+      "translation": "доза",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18",
+      "genPlural": "dosium",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "diagnosis",
+      "gen": "diagnosis",
+      "gender": "f",
+      "translation": "диагноз",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "krsu2008",
+      "locator": "Занятия 17–18",
+      "genPlural": "diagnosium",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "analysis",
+      "gen": "analysis",
+      "gender": "f",
+      "translation": "анализ",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "ugmuclinical",
+      "locator": "Лексический минимум по обследованию и лечению",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "anamnesis",
+      "gen": "anamnesis",
+      "gender": "f",
+      "translation": "анамнез",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "ugmuclinical",
+      "locator": "Лексический минимум по обследованию и лечению",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "auscultatio",
+      "gen": "auscultationis",
+      "gender": "f",
+      "translation": "выслушивание",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmuclinical",
+      "locator": "Лексический минимум по обследованию и лечению"
+    },
+    {
+      "nom": "epicrisis",
+      "gen": "epicrisis",
+      "gender": "f",
+      "translation": "эпикриз",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "ugmuclinical",
+      "locator": "Лексический минимум по обследованию и лечению",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "examinatio",
+      "gen": "examinationis",
+      "gender": "f",
+      "translation": "обследование",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmuclinical",
+      "locator": "Лексический минимум по обследованию и лечению"
+    },
+    {
+      "nom": "prognosis",
+      "gen": "prognosis",
+      "gender": "f",
+      "translation": "прогноз",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "palpatio",
+      "gen": "palpationis",
+      "gender": "f",
+      "translation": "пальпация",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов"
+    },
+    {
+      "nom": "percussio",
+      "gen": "percussionis",
+      "gender": "f",
+      "translation": "перкуссия, простукивание",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов"
+    },
+    {
+      "nom": "prophylaxis",
+      "gen": "prophylaxis",
+      "gender": "f",
+      "translation": "профилактика",
+      "group": "vowel",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов",
+      "note": "Учебная модель гласного типа для греческих существительных на −sis или −xis."
+    },
+    {
+      "nom": "sanatio",
+      "gen": "sanationis",
+      "gender": "f",
+      "translation": "санация",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов"
+    },
+    {
+      "nom": "functio",
+      "gen": "functionis",
+      "gender": "f",
+      "translation": "функция",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов"
+    },
+    {
+      "nom": "erythema",
+      "gen": "erythematis",
+      "gender": "n",
+      "translation": "эритема",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов"
+    },
+    {
+      "nom": "trachoma",
+      "gen": "trachomatis",
+      "gender": "n",
+      "translation": "трахома",
+      "group": "consonant",
+      "topic": "clinical",
+      "source": "ugmu2022",
+      "locator": "Краткий словарь клинических терминов"
+    }
+  ]
+}
